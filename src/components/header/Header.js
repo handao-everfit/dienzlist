@@ -3,24 +3,11 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import {
-  greeting,
-  workExperiences,
-  skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
-  achievementSection
-} from "../../portfolio";
+import {greeting, skillsSection} from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
-  const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
 
   return (
     <Headroom>
@@ -41,36 +28,21 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#about">Về Điên'z List</a>
             </li>
           )}
-          {viewExperience && (
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )}
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Open Source</a>
-            </li>
-          )}
-          {viewAchievement && (
-            <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}
+
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#podcast">Episodes</a>
+          </li>
+          <li>
+            <a href="#education">The Team</a>
+          </li>
+          <li>
+            <a href="#donate"> Ủng Hộ</a>
+          </li>
+          <li>
+            <a href="#contact">Liên hệ</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
