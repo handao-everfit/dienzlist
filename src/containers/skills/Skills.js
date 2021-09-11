@@ -1,7 +1,6 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
+import {illustration} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -9,9 +8,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
-  if (!skillsSection.display) {
-    return null;
-  }
+
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="about">
       <div className="skills-main-div">
@@ -32,7 +29,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              Câu chuyện của Điên'z List
             </h1>
             <p
               className={
@@ -41,25 +38,12 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              Lấy cảm hứng từ "Dean's list" - Danh sách sinh viên ưu tú được
+              đánh giá dựa trên phương diện học thuật ở Mỹ. Dean's list phiên
+              bản Việt Nam nay đã xuất hiện với cái tên "Điên'z List" - Danh
+              sách những cá nhân ưu tú có ảnh hưởng tích cực đến cột sống của
+              gen Z trên nhiều lĩnh vực khác nhau.
             </p>
-            <SoftwareSkill />
-            <div>
-              {skillsSection.skills.map((skills, i) => {
-                return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
-              })}
-            </div>
           </div>
         </Fade>
       </div>

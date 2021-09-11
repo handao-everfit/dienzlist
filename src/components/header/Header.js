@@ -3,11 +3,10 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import {greeting, skillsSection} from "../../portfolio";
+import {greeting} from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewSkills = skillsSection.display;
 
   return (
     <Headroom>
@@ -26,20 +25,18 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
-            <li>
-              <a href="#about">Về Điên'z List</a>
-            </li>
-          )}
+          <li>
+            <a href="#about">Về Điên'z List</a>
+          </li>
 
           <li>
-            <a href="#podcast">Episodes</a>
+            <a href="#podcast">Nghe Podcast</a>
           </li>
           <li>
-            <a href="#education">The Team</a>
+            <a href="#education">Đội ngủ 🛏</a>
           </li>
           <li>
-            <a href="#donate"> Ủng Hộ</a>
+            <a href="#donate">Ủng Hộ</a>
           </li>
           <li>
             <a href="#contact">Liên hệ</a>

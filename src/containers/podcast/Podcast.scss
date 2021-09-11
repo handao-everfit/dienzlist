@@ -8,12 +8,15 @@
 
 .podcast {
   width: 600px;
+  margin: 10px;
 }
 
 .podcast-main-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  // display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // gap: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
 }
 .subTitle {
   color: $subTitle;
