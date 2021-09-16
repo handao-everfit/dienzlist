@@ -33,13 +33,19 @@ function Header() {
             <a href="#podcast">Nghe Podcast</a>
           </li>
           <li>
+            <a href="#guests">Điên Guests</a>
+          </li>
+          <li>
             <a href="#education">Đội ngủ 🛏</a>
           </li>
           <li>
-            <a href="#donate">Ủng Hộ</a>
-          </li>
-          <li>
-            <a href="#contact">Liên hệ</a>
+            <a
+              href="https://www.buymeacoffee.com/dienzlist"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Ủng Hộ
+            </a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
