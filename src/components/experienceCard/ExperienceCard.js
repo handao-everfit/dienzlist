@@ -1,52 +1,23 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
-import ColorThief from "colorthief";
 
 export default function ExperienceCard({cardInfo, isDark}) {
-  const [colorArrays, setColorArrays] = useState([]);
-  const imgRef = createRef();
-
-  function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
-  }
-
-  function rgb(values) {
-    return typeof values === "undefined"
-      ? null
-      : "rgb(" + values.join(", ") + ")";
-  }
-
-  const GetDescBullets = ({descBullets, isDark}) => {
-    return descBullets
-      ? descBullets.map((item, i) => (
-          <li
-            key={i}
-            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
-          >
-            {item}
-          </li>
-        ))
-      : null;
-  };
-
   return (
-    <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div style={{background: rgb(colorArrays)}} className="experience-banner">
-        <div className="experience-blurred_div"></div>
-        <div className="experience-div-company">
-          <h5 className="experience-text-company">{cardInfo.company}</h5>
+    <div className={isDark ? "card-box-dark" : "card-box"}>
+      <div class="cardBox">
+        <div class="card">
+          <div class="front">
+            <h3>Card One</h3>
+            <p>Hover to flip</p>
+            <strong>&#x21bb;</strong>
+          </div>
+          <div class="back">
+            <h3>Back Side One</h3>
+            <p>Content in card one</p>
+          </div>
         </div>
-
-        <img
-          crossOrigin={"anonymous"}
-          ref={imgRef}
-          className="experience-roundedimg"
-          src={cardInfo.companylogo}
-          alt={cardInfo.company}
-          onLoad={() => getColorArrays()}
-        />
       </div>
+
       <div className="experience-text-details">
         <h5
           className={
@@ -70,14 +41,11 @@ export default function ExperienceCard({cardInfo, isDark}) {
           className={
             isDark
               ? "subTitle experience-text-desc dark-mode-text"
-              : "subTitle experience-text-desc"
+              : " experience-text-desc"
           }
         >
           {cardInfo.desc}
         </p>
-        <ul>
-          <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
-        </ul>
       </div>
     </div>
   );
