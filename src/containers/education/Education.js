@@ -4,6 +4,7 @@ import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import emoji from "react-easy-emoji";
 
 export default function Education() {
   const {isDark} = useContext(StyleContext);
@@ -13,7 +14,7 @@ export default function Education() {
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Đội Ngủ 🛏️ 😴</h1>
+              <h1 className="experience-heading">{emoji("Đội Ngủ 🛏️ 😴")}</h1>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (
