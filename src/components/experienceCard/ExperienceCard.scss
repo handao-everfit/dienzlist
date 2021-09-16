@@ -137,19 +137,19 @@
 //   white-space: nowrap;
 // }
 
-.experience-roundedimg {
-  position: absolute;
-  object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 7rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8rem;
-  height: 8rem;
-  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
-}
+// .experience-roundedimg {
+//   position: absolute;
+//   object-fit: cover;
+//   left: 0;
+//   right: 0;
+//   top: 7rem;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 8rem;
+//   height: 8rem;
+//   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+//   border-radius: 50%;
+// }
 
 .experience-text-role {
   text-align: center;
@@ -182,11 +182,16 @@
   // margin-top: 2rem;
 }
 
-.profile-pic {
+.profile-pic-front {
   height: 100%;
   width: 100%;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+}
+.profile-pic-back {
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 /* Media Query */
@@ -202,9 +207,16 @@
   .experience-text-date {
     font-size: 18px;
   }
-  .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
+  .experience-text-desc {
+    font-size: 14px;
+  }
+
+  .profile-pic-back {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid $lightBorder1;
+    visibility: visible;
   }
 }
 
@@ -219,9 +231,16 @@
     font-size: 18px;
   }
   .experience-text-desc {
-    font-size: 16px;
+    font-size: 14px;
   }
   .card {
     height: 450px;
+  }
+  .profile-pic-back {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid $lightBorder1;
+    visibility: visible;
   }
 }

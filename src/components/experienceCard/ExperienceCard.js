@@ -7,13 +7,18 @@ export default function ExperienceCard({cardInfo, isDark}) {
       <div class="card">
         <div class="front">
           <img
-            className="profile-pic"
+            className="profile-pic-front"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7lfwGY5oRempqimCHtdQJqQFNVp-lXP0Rg&usqp=CAU"
             alt="grandma"
           />
         </div>
         <div class="back">
           <div className="experience-text-details">
+            <img
+              className="profile-pic-back"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7lfwGY5oRempqimCHtdQJqQFNVp-lXP0Rg&usqp=CAU"
+              alt="grandma"
+            />
             <h5
               className={
                 isDark
