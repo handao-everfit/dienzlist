@@ -1,4 +1,4 @@
-import React, {useState, createRef} from "react";
+import React from "react";
 import "./ExperienceCard.scss";
 
 export default function ExperienceCard({cardInfo, isDark}) {
