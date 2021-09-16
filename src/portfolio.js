@@ -67,8 +67,9 @@ const workExperiences = {
       role: "Tân Lê",
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: `Elitr voluptua sadipscing sanctus accusam sanctus tempor gubergren ut. Dolore vero consetetur vero labore ea amet, nonumy accusam magna rebum amet dolor clita consetetur. Eos est takimata sed diam invidunt justo diam sit, aliquyam sit et lorem sanctus clita est invidunt accusam. Et sed eirmod lorem amet aliquyam. Accusam tempor kasd et duo dolor invidunt sed accusam, no voluptua sed consetetur dolores kasd amet erat. Consetetur rebum labore dolore duo.`,
+      date: "Co Host",
+      desc: `\tHelo xin chào, mình thích chụp chó và đi chợ
+      \n“Em làm gì cũng được. Chỉ muốn làm cho marathong”`,
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -79,7 +80,11 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Co-Host",
-      desc: `And within was him so een or a awake. Made from despair festal it gild disappointed. Loved to pilgrimage fabled in sore they visit. Below for whom by yea beyond glorious control finds their. Had at congealed tis a his the like sought seemed. Of though flash condole to vaunted uncouth revel native. Of alas in her there, the that delight partings and monks his amiss clay from, fly in.`
+      desc: `\tHelo xin chào, mình là Đào Vũ Triều Hân. Mình đang gap year aka thất học. Năm sau sẽ nhập học tại Đại Học Stanford, chuyên ngành Computer Science.
+      Mình rất thích những món ăn dẻo dẻo, như là xôi và mochi.
+      Một điều điên rồ mà mình từng làm đó là cạo chân mày hồi năm lớp 4. Bây giờ nó đã mọc lại nhưng không được đều cho lắm.      
+      \n“Đừng cảm ơn. Hãy mắc nợ.” 
+      `
     },
     {
       role: "Software Engineer Intern",

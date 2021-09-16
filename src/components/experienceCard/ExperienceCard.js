@@ -4,15 +4,15 @@ import "./ExperienceCard.scss";
 export default function ExperienceCard({cardInfo, isDark}) {
   return (
     <div className={isDark ? "card-box-dark" : "card-box"}>
-      <div class="card">
-        <div class="front">
+      <div className="card">
+        <div className="front">
           <img
             className="profile-pic-front"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7lfwGY5oRempqimCHtdQJqQFNVp-lXP0Rg&usqp=CAU"
             alt="grandma"
           />
         </div>
-        <div class="back">
+        <div className="back">
           <div className="experience-text-details">
             <img
               className="profile-pic-back"
@@ -40,7 +40,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
             <p
               className={
                 isDark
-                  ? "subTitle experience-text-desc dark-mode-text"
+                  ? "experience-text-desc dark-mode-text"
                   : "experience-text-desc"
               }
             >
