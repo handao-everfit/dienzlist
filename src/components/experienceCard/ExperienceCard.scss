@@ -12,6 +12,10 @@
   transform: rotateY(180deg);
 }
 
+.card-box:active .card {
+  transform: rotateY(180deg);
+}
+
 .card {
   // background: #222;
   cursor: default;
@@ -41,6 +45,9 @@
 }
 
 .card-box:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+.card-box:active {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 @-webkit-keyframes giro {
