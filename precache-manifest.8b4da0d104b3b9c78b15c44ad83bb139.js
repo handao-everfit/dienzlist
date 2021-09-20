@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f7a641a11fa42336dac7d54e87fbbac",
+    "revision": "a5baf3a0e1bb35df2ebbe6d20d52a4a0",
     "url": "/index.html"
   },
   {
-    "revision": "df1f4c7037b252bac869",
-    "url": "/static/css/main.5e4d01b3.chunk.css"
+    "revision": "32069d4c6e2929383f44",
+    "url": "/static/css/main.f5281c19.chunk.css"
   },
   {
-    "revision": "0f6448c4ade9f0e79786",
-    "url": "/static/js/2.7528ce4a.chunk.js"
+    "revision": "b3409b4f9b53775ca3ae",
+    "url": "/static/js/2.0735b084.chunk.js"
   },
   {
-    "revision": "b9941b26ce7f87a25d1a3bc0d5ae97bc",
-    "url": "/static/js/2.7528ce4a.chunk.js.LICENSE.txt"
+    "revision": "570d362d673dab785e62d2b8563e1118",
+    "url": "/static/js/2.0735b084.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df1f4c7037b252bac869",
-    "url": "/static/js/main.ef0ea0f1.chunk.js"
+    "revision": "32069d4c6e2929383f44",
+    "url": "/static/js/main.1576590e.chunk.js"
   },
   {
     "revision": "c58f1ea9baa43354727f",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
+    "url": "/static/media/airbnbLogo.c59720d6.png"
+  },
+  {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
+  },
+  {
+    "revision": "8ddf76a14a2e3ad3ba62b46d49a75a74",
+    "url": "/static/media/facebookLogo.8ddf76a1.png"
   },
   {
     "revision": "35ef5e915631be2c31ccdff55b53db29",
@@ -42,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
+  },
+  {
+    "revision": "4b2938b9f5ea2f1ddbd45dccaff628bc",
+    "url": "/static/media/quoraLogo.4b2938b9.png"
   },
   {
     "revision": "3b758ef56d398145542e137daa28e392",
