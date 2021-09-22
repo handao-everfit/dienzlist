@@ -3,7 +3,6 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import {greeting} from "../../portfolio";
 import logo from "../header/logo.png";
 
 function Header() {
