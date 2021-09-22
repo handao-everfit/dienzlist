@@ -23,8 +23,9 @@
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
-  padding: 15px 20px;
+  padding: 0px 20px;
   margin: 0px auto;
+  // border: 1px solid;
 }
 
 .header ul {
@@ -50,23 +51,25 @@
   background-color: $headerHoverBG;
 }
 
-.header .logo {
-  display: block;
-  flex: none;
-  float: left;
-  font-size: 1.5em;
-  text-decoration: none;
-  margin-top: 10px;
-  line-height: normal;
+.logo {
+  // display: block;
+  // flex: none;
+  // float: left;
+  // font-size: 1.5em;
+  // text-decoration: none;
+  margin-top: 25px;
+  margin-left: 30px;
+  // line-height: normal;
+  width: 10vw;
 }
 
-.header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
-}
+// .header .logo-name {
+//   font-family: "Agustina Regular";
+//   font-weight: bold;
+//   font-variant-ligatures: no-common-ligatures;
+//   -webkit-font-variant-ligatures: no-common-ligatures;
+//   padding: 0 10px;
+// }
 
 /* menu */
 
@@ -81,7 +84,7 @@
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  // float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;

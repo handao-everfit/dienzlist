@@ -27,7 +27,8 @@ export default function Education() {
                         date: card.date,
                         companylogo: card.companylogo,
                         role: card.role,
-                        descBullets: card.descBullets
+                        descBullets: card.descBullets,
+                        profilePicture: card.profilePicture
                       }}
                     />
                   );

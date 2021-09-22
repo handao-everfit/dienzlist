@@ -4,6 +4,7 @@ import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {greeting} from "../../portfolio";
+import logo from "../header/logo.png";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -11,10 +12,12 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
+        <a href="/">
+          {/* <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
+          <h1>helo</h1> */}
+          <img className="logo" src={logo} alt="logo" />
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -33,7 +36,7 @@ function Header() {
             <a href="#podcast">Nghe Podcast</a>
           </li>
           <li>
-            <a href="#guests">Điên Guests</a>
+            <a href="#guests">Điên'z Guests</a>
           </li>
           <li>
             <a href="#education">Đội ngủ 🛏</a>

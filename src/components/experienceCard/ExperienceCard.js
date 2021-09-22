@@ -8,15 +8,24 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <div className="front">
           <img
             className="profile-pic-front"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7lfwGY5oRempqimCHtdQJqQFNVp-lXP0Rg&usqp=CAU"
+            src={cardInfo.profilePicture}
             alt="grandma"
           />
+          <h5
+            className={
+              isDark
+                ? "experience-text-role dark-mode-text"
+                : "experience-text-role"
+            }
+          >
+            {cardInfo.role}
+          </h5>
         </div>
         <div className="back">
           <div className="experience-text-details">
             <img
               className="profile-pic-back"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7lfwGY5oRempqimCHtdQJqQFNVp-lXP0Rg&usqp=CAU"
+              src={cardInfo.profilePicture}
               alt="grandma"
             />
             <h5

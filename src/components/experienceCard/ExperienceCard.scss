@@ -31,10 +31,10 @@
 .card {
   // background: #222;
   cursor: default;
-  height: 600px;
+  height: 500px;
   transform-style: preserve-3d;
   transition: transform 0.4s ease 0s;
-  width: 100%;
+  // width: 100%;
   -webkit-animation: giro 1s 1;
   animation: giro 1s 1;
   position: relative;
@@ -84,6 +84,13 @@
   position: absolute;
   text-align: center;
   width: 100%;
+}
+
+.front {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .experience-banner {
@@ -160,10 +167,14 @@
   color: $textColor;
   font-weight: 700;
   font-size: 25px;
-  margin: 0px;
-  // padding-top: 1.5rem;
+  margin-top: 0;
   line-height: normal;
 }
+
+.front .experience-text-role {
+  padding-top: 1.5rem;
+}
+
 .dark-mode-text {
   color: $textColorDark !important;
 }
@@ -171,8 +182,9 @@
   text-align: center;
   color: $textColor;
   font-size: 20px;
-  margin: 0px;
-  padding-top: 0.25rem;
+  margin-top: -25px;
+  margin-bottom: -8px;
+  // padding-top: 0.25rem;
   font-weight: 600;
 }
 
@@ -183,15 +195,16 @@
 }
 
 .experience-text-details {
-  padding: 1rem;
+  padding: 0.5rem;
   // margin-top: 2rem;
 }
 
 .profile-pic-front {
-  height: 100%;
   width: 100%;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+  flex: none;
+  // margin-left: -30px;
 }
 .profile-pic-back {
   visibility: hidden;

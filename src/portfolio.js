@@ -11,11 +11,9 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
+  username: "Điên'z List",
   title: "Điên'z List",
   subTitle: "By xếp Tân, shếp Thành, và nhân viên Hân",
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -64,35 +62,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Tân Lê",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "Co Host",
-      desc: `\tHelo xin chào, mình thích chụp chó và đi chợ
-      \n“Em làm gì cũng được. Chỉ muốn làm cho marathong”`,
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Hân",
-      company: "Quora",
+      role: "Xếp Tân",
+      profilePicture: require("./assets/images/xep-tan.png"),
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Co-Host",
-      desc: `\tHelo xin chào, mình là Đào Vũ Triều Hân. Mình đang gap year aka thất học. Năm sau sẽ nhập học tại Đại Học Stanford, chuyên ngành Computer Science.
+      desc: `\tHelo xin chào, mình là Tân. Mình đang trong thời gian gap year trước khi vào đại học. Mình thích chụp chó, đi chợ và thích ăn bánh tiêu.
+      Hồi nhỏ mình tập cười nhếch mép trước gương vì nghĩ thế là ngầu. Hồi lớn mình phải tập cười nhếch mép bên còn lại để cân bằng. Nhưng mà có vẻ là nó không cân bằng được. 
+          
+      \n “Chết có một lần nên hãy sống động lên hê hê" 
+      `
+    },
+    {
+      role: "Sếp Hân",
+      company: "Quora",
+      profilePicture: require("./assets/images/sep-han.png"),
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "Co-Host",
+      desc: `\tHelo xin chào, mình là Hân. Mình đang gap year aka thất học. Năm sau sẽ nhập học tại Đại Học Stanford, chuyên ngành Computer Science.
       Mình rất thích những món ăn dẻo dẻo, như là xôi và mochi.
       Một điều điên rồ mà mình từng làm đó là cạo chân mày hồi năm lớp 4. Bây giờ nó đã mọc lại nhưng không được đều cho lắm.      
       \n“Đừng cảm ơn. Hãy mắc nợ.” 
       `
     },
     {
-      role: "Software Engineer Intern",
+      role: "Shếp Thành",
       company: "Airbnb",
+      profilePicture: require("./assets/images/shep-thanh.png"),
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      desc: "Helo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Đúng là mình học năm thứ hai "
+    },
+    // {
+    //   role: "Shếp Thành",
+    //   company: "Airbnb",
+    //   profilePicture: require("./assets/images/shep-thanh.png"),
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Helo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Đúng là mình học năm thứ hai "
+    // }
   ]
 };
 
