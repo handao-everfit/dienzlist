@@ -11,7 +11,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
             src={cardInfo.profilePicture}
             alt="grandma"
           />
-          <h5
+          {/* <h5
             className={
               isDark
                 ? "experience-text-role dark-mode-text"
@@ -19,7 +19,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
             }
           >
             {cardInfo.role}
-          </h5>
+          </h5> */}
         </div>
         <div className="back">
           <div className="experience-text-details">

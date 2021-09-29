@@ -8,9 +8,9 @@
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
+  padding: 0px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 7.5rem;
 }
 
 .greeting-main {
@@ -27,11 +27,11 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .greeting-text {
@@ -90,6 +90,10 @@
   .greeting-text-p {
     font-size: 20px;
   }
+  .greet-main {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+  }
 }
 @media (max-width: 768px) {
   .button-greeting-div {
@@ -110,10 +114,18 @@
   .greeting-image-div {
     height: 256px;
   }
+  .greet-main {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+  }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+  .greet-main {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
   }
 }

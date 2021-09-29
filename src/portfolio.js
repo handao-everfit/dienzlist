@@ -92,14 +92,14 @@ const workExperiences = {
       date: "Jan 2015 – Sep 2015",
       desc: "Helo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Đúng là mình học năm thứ hai "
     },
-    // {
-    //   role: "Shếp Thành",
-    //   company: "Airbnb",
-    //   profilePicture: require("./assets/images/shep-thanh.png"),
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Helo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Đúng là mình học năm thứ hai "
-    // }
+    {
+      role: "$hếp Đức",
+      company: "Airbnb",
+      profilePicture: require("./assets/images/shep-thanh.png"),
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Helo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Đúng là mình học năm thứ hai "
+    }
   ]
 };
 

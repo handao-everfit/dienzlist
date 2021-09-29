@@ -11,13 +11,15 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/">
-          {/* <span className="grey-color"> &lt;</span>
+        <div className="logo-container">
+          <a href="/">
+            {/* <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
           <h1>helo</h1> */}
-          <img className="logo" src={logo} alt="logo" />
-        </a>
+            <img className="logo" src={logo} alt="logo" />
+          </a>
+        </div>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
