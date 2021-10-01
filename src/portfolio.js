@@ -78,7 +78,7 @@ const workExperiences = {
       profilePicture: require("./assets/images/sep-han.png"),
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Co-Host",
-      desc: `\tHelo xin chào, mình là Hân. Mình đang gap year aka thất học. Năm sau sẽ nhập học tại Đại Học Stanford, chuyên ngành Computer Science.
+      desc: `\tHelo xin chào, mình là Hân. Mình đang gap year aka thất học. Năm sau chắc mình học trường Stanford nếu hết dịch.
       Mình rất thích những món ăn dẻo dẻo, như là xôi và mochi.
       Một điều điên rồ mà mình từng làm đó là cạo chân mày hồi năm lớp 4. Bây giờ nó đã mọc lại nhưng không được đều cho lắm.      
       \n“Đừng cảm ơn. Hãy mắc nợ.” 
@@ -90,15 +90,18 @@ const workExperiences = {
       profilePicture: require("./assets/images/shep-thanh.png"),
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Helo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Đúng là mình học năm thứ hai "
+      desc: `\tHelo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Tại mình ở một mình nên mình khộng cái gì ngoài cơm và nước tương để dành tiền uống trà sữa trân châu đường đen. 
+      Dạo này tại mình đeo khẫu trang nên mình hay cười bằng mắt, giờ miệng mình quên luôn thế nào là cười bình thường, cười mỉm, cười nhe răng, cười nhép môi, etc. 
+      \n“Làm anh thật khó, phải đâu chuyện đùa …”`
     },
     {
       role: "$hếp Đức",
       company: "Airbnb",
-      profilePicture: require("./assets/images/shep-thanh.png"),
+      profilePicture: require("./assets/images/shep-duc.PNG"),
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Helo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Đúng là mình học năm thứ hai "
+      desc: `\tHelo xin chào, Đức là mình. Mình đang học dự bị ở UEH. Mình thích nhạc và design. Hồi nhỏ có lần mình nói dối mẹ đi mua bánh để đi chơi net ở quán kế bên nhà. Các bạn nghĩ chuyện gì xảy ra?
+      \n\tXin cảm ơn.`
     }
   ]
 };
