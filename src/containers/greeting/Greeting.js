@@ -8,7 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
 // import {illustration, greeting} from "../../portfolio";
-import { greeting} from "../../portfolio";
+import {greeting} from "../../portfolio";
 
 import StyleContext from "../../contexts/StyleContext";
 
@@ -42,7 +42,6 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Nghe Podcast" href="#podcast" />
-                <Button text="Nút Gì Đó" />
               </div>
             </div>
           </div>
