@@ -64,7 +64,7 @@ const workExperiences = {
   experience: [
     {
       role: "Xếp Tân",
-      profilePicture: require("./assets/images/xep-tan.png"),
+      profilePicture: "/images/xep-tan.png",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Co-Host",
       desc: `\tHelo xin chào, mình là Tân. Mình đang trong thời gian gap year trước khi vào đại học. Mình thích chụp chó, đi chợ và thích ăn bánh tiêu.
@@ -76,7 +76,7 @@ const workExperiences = {
     {
       role: "Sếp Hân",
       company: "Quora",
-      profilePicture: require("./assets/images/sep-han.png"),
+      profilePicture: "/images/sep-han.png",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Co-Host",
       desc: `\tHelo xin chào, mình là Hân. Mình đang gap year aka thất học. Năm sau chắc mình học trường Stanford nếu hết dịch.
@@ -88,7 +88,7 @@ const workExperiences = {
     {
       role: "Shếp Thành",
       company: "Airbnb",
-      profilePicture: require("./assets/images/shep-thanh.png"),
+      profilePicture: "/images/shep-thanh.png",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: `\tHelo xin chào, tên mình là Thành. Hiện tại mình đang học kiến trúc ở UT Austin. Tại mình ở một mình nên mình khộng cái gì ngoài cơm và nước tương để dành tiền uống trà sữa trân châu đường đen. 
@@ -98,8 +98,8 @@ const workExperiences = {
     {
       role: "$hếp Đức",
       company: "Airbnb",
-      profilePicture: require("./assets/images/shep-duc.PNG"),
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      profilePicture: "/images/shep-duc.PNG",
+      companylogo: "./assets/images/airbnbLogo.png",
       date: "Jan 2015 – Sep 2015",
       desc: `\tHelo xin chào, Đức là mình. Mình đang học dự bị ở UEH. Mình thích nhạc và design. Hồi nhỏ có lần mình nói dối mẹ đi mua bánh để đi chơi net ở quán kế bên nhà. Các bạn nghĩ chuyện gì xảy ra?
       \n\tXin cảm ơn.`

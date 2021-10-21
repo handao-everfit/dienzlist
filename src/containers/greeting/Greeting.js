@@ -54,10 +54,7 @@ export default function Greeting() {
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )} */}
-            <img
-              alt="3 sep"
-              src={require("../../assets/images/cac-sep.png")}
-            ></img>
+            <img alt="3 sep" src={"/images/cac-sep.png"}></img>
           </div>
         </div>
       </div>

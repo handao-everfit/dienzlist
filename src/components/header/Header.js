@@ -3,7 +3,6 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import logo from "../header/logo.png";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -17,7 +16,7 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
           <h1>helo</h1> */}
-            <img className="logo" src={logo} alt="logo" />
+            <img className="logo" src={"/images/logo.png"} alt="logo" />
           </a>
         </div>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
