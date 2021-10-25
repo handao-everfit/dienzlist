@@ -1,34 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.15d63174.chunk.css",
-    "main.js": "/static/js/main.966f9470.chunk.js",
-    "main.js.map": "/static/js/main.966f9470.chunk.js.map",
+    "main.js": "/static/js/main.14402435.chunk.js",
+    "main.js.map": "/static/js/main.14402435.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.665abb56.js",
     "runtime-main.js.map": "/static/js/runtime-main.665abb56.js.map",
-    "static/js/2.cd407ad2.chunk.js": "/static/js/2.cd407ad2.chunk.js",
-    "static/js/2.cd407ad2.chunk.js.map": "/static/js/2.cd407ad2.chunk.js.map",
+    "static/js/2.235cac4b.chunk.js": "/static/js/2.235cac4b.chunk.js",
+    "static/js/2.235cac4b.chunk.js.map": "/static/js/2.235cac4b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.120a9ebb2c9f2f8420bbf4061b2b2237.js": "/precache-manifest.120a9ebb2c9f2f8420bbf4061b2b2237.js",
+    "precache-manifest.c1cdb984f7e2a1e39848062fab084d38.js": "/precache-manifest.c1cdb984f7e2a1e39848062fab084d38.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.15d63174.chunk.css.map": "/static/css/main.15d63174.chunk.css.map",
-    "static/js/2.cd407ad2.chunk.js.LICENSE.txt": "/static/js/2.cd407ad2.chunk.js.LICENSE.txt",
+    "static/js/2.235cac4b.chunk.js.LICENSE.txt": "/static/js/2.235cac4b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
-    "static/media/cac-sep.png": "/static/media/cac-sep.19c9014f.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
     "static/media/harvardLogo.png": "/static/media/harvardLogo.35ef5e91.png",
-    "static/media/logo.png": "/static/media/logo.67c9e915.png",
     "static/media/quoraLogo.png": "/static/media/quoraLogo.4b2938b9.png",
-    "static/media/sep-han.png": "/static/media/sep-han.6a338739.png",
-    "static/media/shep-duc.PNG": "/static/media/shep-duc.0d958e3e.PNG",
-    "static/media/shep-thanh.png": "/static/media/shep-thanh.f78b4823.png",
-    "static/media/stanfordLogo.png": "/static/media/stanfordLogo.3b758ef5.png",
-    "static/media/xep-tan.png": "/static/media/xep-tan.a4fdce54.png"
+    "static/media/stanfordLogo.png": "/static/media/stanfordLogo.3b758ef5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.665abb56.js",
-    "static/js/2.cd407ad2.chunk.js",
+    "static/js/2.235cac4b.chunk.js",
     "static/css/main.15d63174.chunk.css",
-    "static/js/main.966f9470.chunk.js"
+    "static/js/main.14402435.chunk.js"
   ]
 }

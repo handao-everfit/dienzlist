@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e82ccd8c53574b551953a129711734b1",
+    "revision": "4ba6e57f3e093477921c8de89688d97b",
     "url": "/index.html"
   },
   {
-    "revision": "664c73238942b9f6a62d",
+    "revision": "5988d2a952726525e6a2",
     "url": "/static/css/main.15d63174.chunk.css"
   },
   {
-    "revision": "593ba6f4e729eafc5e3f",
-    "url": "/static/js/2.cd407ad2.chunk.js"
+    "revision": "7b83fcb294c26feea322",
+    "url": "/static/js/2.235cac4b.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/static/js/2.cd407ad2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.235cac4b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "664c73238942b9f6a62d",
-    "url": "/static/js/main.966f9470.chunk.js"
+    "revision": "5988d2a952726525e6a2",
+    "url": "/static/js/main.14402435.chunk.js"
   },
   {
     "revision": "c58f1ea9baa43354727f",
@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/airbnbLogo.c59720d6.png"
   },
   {
-    "revision": "19c9014f13d498a5de6a7dc700530620",
-    "url": "/static/media/cac-sep.19c9014f.png"
-  },
-  {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
   },
@@ -48,31 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/harvardLogo.35ef5e91.png"
   },
   {
-    "revision": "67c9e91519d9266cbce4dbeed60a3016",
-    "url": "/static/media/logo.67c9e915.png"
-  },
-  {
     "revision": "4b2938b9f5ea2f1ddbd45dccaff628bc",
     "url": "/static/media/quoraLogo.4b2938b9.png"
   },
   {
-    "revision": "6a3387398764a970a7905b30f8046401",
-    "url": "/static/media/sep-han.6a338739.png"
-  },
-  {
-    "revision": "0d958e3e1bc7430dc9f7b68d2c606ed5",
-    "url": "/static/media/shep-duc.0d958e3e.PNG"
-  },
-  {
-    "revision": "f78b4823092c431a673c1b4d9c0e3bfa",
-    "url": "/static/media/shep-thanh.f78b4823.png"
-  },
-  {
     "revision": "3b758ef56d398145542e137daa28e392",
     "url": "/static/media/stanfordLogo.3b758ef5.png"
-  },
-  {
-    "revision": "a4fdce54ed6c6ea564400e25f99373a2",
-    "url": "/static/media/xep-tan.a4fdce54.png"
   }
 ]);
